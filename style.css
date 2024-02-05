@@ -1,0 +1,78 @@
+/* Custom styles for the page */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+#registeredUsers, #registrationFormSection {
+    text-align: center;
+}
+
+#left {
+    background-color: #CDFADB;
+}
+
+#right {
+    background-color: #F6FDC3;
+}
+
+#registeredUsers {
+    margin-top: 30px;
+}
+
+#userListTable {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+#userListTable th, #userListTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#userListTable th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Ensure the header text is bold */
+}
+
+#registrationFormSection {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Center form elements within the registration form section */
+#registrationForm {
+    text-align: left;
+}
+
+#registrationForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#registrationForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#registrationForm button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#registrationForm button:hover {
+    background-color: #0056b3;
+}
